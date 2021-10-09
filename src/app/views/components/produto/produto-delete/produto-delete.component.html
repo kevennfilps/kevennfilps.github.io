@@ -1,0 +1,20 @@
+<form class="form mat-elevation-z8">
+    <h1>Exclusão de Produto</h1>
+    <mat-form-field class="full-width">
+        <mat-label>Nome do Produto</mat-label>
+        <input disabled [(ngModel)]="produtos.produto" maxlength="100" name="produto" matInput placeholder="Ex. de nomes de produtos">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <mat-label>Estoque</mat-label>
+        <input disabled [(ngModel)]="produtos.quantidade" name="quantidade" matInput placeholder="Ex. de quantidade de produtos" type="number">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <mat-label>Valor do Produto</mat-label>
+        <input disabled [(ngModel)]="produtos.valor" name="valor" matInput placeholder="Colocar valor do produto">
+    </mat-form-field>
+
+    <button (click)="delete()" class="mat-elevation-z8" mat-stroked-button color="accent">DELETAR</button>
+    <button class="mat-elevation-z8" (click)="cancel()" mat-stroked-button color="warn">CANCELAR</button>
+</form>

@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Informações Adicionais
+
+Foi utiliazado a linguagem Angular para desenvolvimento do front, assim como os componentes que foram feito nesse projeto foi retirada do site - (https://material.angular.io/components/categories). O framework utilizado foi o VsCod para a manipulação das telas e desenvolvimento da linguagem.
+---------- (https://kevennfilps.github.io/kevennfilps.github.io) - O link do site do projeto Front com o back-end integrado.
+Esse é o link onde esta armazenado o código do front-end (https://github.com/kevennfilps/kevennfilps.github.io)
+
+Para o back-end usei a tecnologia Java - Spring Boot, assim como a ferramenta que usei foi o SpringToolSuite4 para desenvolver, e para armazenamento do banco e o back-end nas nuvens utilizei o Heroku. E todos os dois projetos estão disponiveis no GitHub.
+Esse é o link onde está armazenado o código do back-end (https://github.com/kevennfilps/loja-api)
